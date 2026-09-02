@@ -1,0 +1,73 @@
+REAL ESTATE CRM
+│
+├── 🔐 Authentication
+│   ├── Register
+│   ├── Login
+│   ├── JWT
+│   ├── Admin
+│   └── Agent
+│
+├── 📊 Dashboard
+│   ├── Total Properties
+│   ├── Total Clients
+│   ├── Total Leads
+│   ├── Converted Leads
+│   ├── Recent Activities
+│   └── Analytics
+│
+├── 🏠 Properties
+│   ├── Add
+│   ├── View
+│   ├── Edit
+│   ├── Delete
+│   ├── Search
+│   ├── Filter
+│   ├── Status
+│   └── Images
+│
+├── 👥 Clients
+│   ├── Add
+│   ├── View
+│   ├── Edit
+│   ├── Delete
+│   ├── Interested Properties
+│   ├── Notes
+│   └── Status
+│
+├── 🎯 Leads
+│   ├── Add
+│   ├── View
+│   ├── Edit
+│   ├── Delete
+│   ├── New
+│   ├── Contacted
+│   ├── Qualified
+│   ├── Converted
+│   ├── Source
+│   └── Budget
+│
+└── 📈 Reports
+    ├── Sales
+    ├── Lead Conversion
+    ├── Property Performance
+    └── Agent Performance
+
+
+
+
+
+backend
+│
+├── server.js                 ✅ Working
+├── .env                      ✅ Working
+├── package.json              ✅
+│
+├── routes
+│   ├── auth.js               ✅
+│   ├── clients.js            ✅
+│   ├── dashboard.js          ✅
+│   ├── leads.js              ✅
+│   └── properties.js         ✅
+│
+└── models
+    └── models.js             ✅
