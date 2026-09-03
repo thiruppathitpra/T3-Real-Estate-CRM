@@ -25,7 +25,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
+const API_URL = process.env.REACT_APP_API_URL || ""https://t3-real-estate-crm.onrender.com/api"";
 const SERVER_URL = API_URL.replace(/\/api\/?$/, "");
 
 /* =====================================================
