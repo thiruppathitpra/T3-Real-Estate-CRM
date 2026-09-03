@@ -18,9 +18,9 @@ const app = express();
 // ========================================
 // Middleware
 // ========================================
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000' }));
+app.use(cors({ origin: process.env.CLIENT_URL || 'https://t3-real-estate-crm-2.onrender.com' }));
 app.use(express.json());
-app.use("/api/whatsapp", whatsappRoutes);
+app.use("/api/whatsapp", whatsappRoutes)
 
 // Serve uploaded property images
 app.use('/uploads', express.static(require('path').join(__dirname, 'uploads')));
